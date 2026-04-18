@@ -46,3 +46,27 @@ src/
 ```bash
 npm install
 npm run dev
+
+```
+## Implementation 
+  Hero Section
+
+<img width="1407" height="697" alt="Hero section" src="https://github.com/user-attachments/assets/babecc3b-bf3b-43da-ba31-06a9aa277942" />
+
+  Feature Section
+  
+<img width="1402" height="887" alt="Feature section " src="https://github.com/user-attachments/assets/0bb3acc7-8a5b-4883-8a4c-19304d3518cc" />
+
+  Carousel section
+
+ <img width="1335" height="828" alt="carousel" src="https://github.com/user-attachments/assets/ce25ff11-10db-477e-8733-61c60cd05709" />
+ 
+## Original version (figma)
+<img width="615" height="637" alt="sni" src="https://github.com/user-attachments/assets/6b55aa01-138a-4215-b97c-d06acf2ebbf1" />
+
+  
+
+
+
+
+
