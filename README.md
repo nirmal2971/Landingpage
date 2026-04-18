@@ -1,18 +1,48 @@
-# React + Vite
+# 🚀 Grafterr Landing Page (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive landing page built using React, based on the provided Figma design.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Dynamic content rendering using JSON
+- Custom hook for API simulation
+- Responsive design (mobile, tablet, desktop)
+- Interactive carousel for product showcase
+- Gradient text and buttons
+- Skeleton loading states
+- Error handling with retry functionality
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React (Functional Components + Hooks)
+- CSS (custom styling)
+- Vite (build tool)
 
-Note: This will impact Vite dev & build performances.
+## 📦 Project Structure
 
-## Expanding the ESLint configuration
+src/
+ ├── components/
+ │   ├── sections/ (Hero, Features)
+ │   ├── ui/ (Carousel, ProductCard, Skeleton)
+ ├── hooks/ (useContent)
+ ├── services/ (API simulation)
+ ├── data/ (content.json)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ How it works
+
+- Content is fetched from a local JSON file using simulated API calls.
+- A custom hook (`useContent`) handles loading, error, and retry logic.
+- UI updates dynamically based on fetched data.
+
+## 🎯 Key Highlights
+
+- Clean component-based architecture
+- Separation of concerns (UI, logic, data)
+- Reusable components (Carousel, Skeleton)
+- Pixel-close implementation of Figma design
+
+## 🚀 Run Locally
+
+```bash
+npm install
+npm run dev
